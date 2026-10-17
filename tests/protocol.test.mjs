@@ -16,7 +16,7 @@ import {
   calculateLiquidationPrice,
   calculateFundingRate,
   calculateFundingPayment
-} from "../src/math.ts";
+} from "../dist/index.js";
 
 test("1. Notional and Initial Margin calculations with leverage constraints", () => {
   // 2 ETH at $3,000 = $6,000 notional
